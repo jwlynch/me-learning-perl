@@ -27,4 +27,9 @@ say $my_bunch_of_info;
 
 my $big_int = 18446744073709551615;
 
-print $big_int . "\n";
+# %c : char
+# %s : string
+# %d : decimal (int)
+# %u : unsigned int
+# %f : float (decimal notation)
+# %e : float (sci notation)
