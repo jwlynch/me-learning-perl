@@ -47,3 +47,13 @@ my $second = 2;
 ($first, $second) = ($second, $first);
 
 printf("first is now %d, and second is now %d\n", $first, $second);
+
+## MATH FUNCTIONS IN PERL
+
+say "EXP 1 = ", exp 1;
+say "HEX 10 = ", hex 10;
+say "OCT 10 = ", oct 10;
+say "INT 6.45 = ", int 6.45;
+say "LOG 2 = ", log 2;
+say "Random between 0 - 10 = ", int(rand 11);
+say "SQRT 9 = ", sqrt 9;
