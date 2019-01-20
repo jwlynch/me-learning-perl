@@ -40,3 +40,10 @@ my $big_float = .1000000000000001;
 
 printf("%.16f \n", $big_float + .1000000000000001);
 
+my $first = 1;
+my $second = 2;
+
+# swap values in $first and $second
+($first, $second) = ($second, $first);
+
+printf("first is now %d, and second is now %d\n", $first, $second);
