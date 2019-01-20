@@ -33,3 +33,10 @@ my $big_int = 18446744073709551615;
 # %u : unsigned int
 # %f : float (decimal notation)
 # %e : float (sci notation)
+
+printf("%u \n", $big_int + 1);
+
+my $big_float = .1000000000000001;
+
+printf("%.16f \n", $big_float + .1000000000000001);
+
