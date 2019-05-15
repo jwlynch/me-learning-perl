@@ -7,6 +7,8 @@ use diagnostics;
 use feature 'say';
 use feature 'switch';
 
+use v5.16;
+
 print "hello world\n";
 
 my $name = 'Jim';
